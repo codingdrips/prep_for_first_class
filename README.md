@@ -68,3 +68,8 @@ https://github.com/codingdrips/prep_for_first_class.git
 * git rm --cached <filename> // unstage
 
 * git rebase --abort // Aborts rebase
+
+ * git push origin --all // This pushes all local branches to remote
+  * git push origin --tag // This pushes all local tags to remote
+
+  * git push origin --mirror // This pushes all locals including remotes to remote
