@@ -26,7 +26,6 @@ https://github.com/codingdrips/prep_for_first_class.git
  
  * You can also use git reset to reset the staging area to the last commit without disturbing the working directory.
  
- 
  * git pull --rebase origin master
   
  * git pull [other-branches] // this pulls other branches not master to local env 
