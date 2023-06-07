@@ -73,3 +73,8 @@ https://github.com/codingdrips/prep_for_first_class.git
   * git push origin --tag // This pushes all local tags to remote
 
   * git push origin --mirror // This pushes all locals including remotes to remote
+
+  * git branch -a // See invisible branches
+  * gitk --all & // Shows git other window
+
+  * git fsck --lost-found // Show all lost and found
