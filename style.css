@@ -1,0 +1,102 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+#first-div
+{
+  background: url( "pic.jpg" );
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: contrast( 120% );
+  height: 40em;
+}
+
+.display
+{
+    display: flex;
+}
+
+:root
+{
+    --f-fam: century gothic;
+    --opac: .6;
+}
+
+#option-top-div
+{
+    color: #fff;
+    /* border: solid thin red;   */
+    justify-content: space-around; 
+    width: 50%;
+    margin: auto;
+    background: rgb(15, 65, 74);
+    font-family: var( --f-fam );
+    padding: 1em;
+    opacity: var( --opac );
+    position: relative;
+    top: 1em;
+    border-radius: .5em;
+}
+
+#switch-logo-div
+{
+    font-size: 4em;
+    color: #fff;
+    text-align: center;
+    margin-top: 1em;
+    text-shadow: 1px 1px #000;
+    font-family: century gothic;
+}
+
+#parent-section-first-div
+{
+    width: 60.7%;
+    margin: auto;
+    /* border: solid thin red; */
+    position: relative;
+    top: -22em;
+    background-image: linear-gradient( 180deg, rgb(15, 65, 74), #fff );
+    color: #fff;
+    padding: 2em;  
+    opacity: .9; 
+    box-shadow: 1px 1px 16px 1px #000;
+}
+
+#parent-section-first-div > div:nth-child(1)
+{
+    font-size: 5em;
+    font-family: Roboto Black;
+}
+
+#parent-section-first-div > div:nth-child(2)
+{
+    font-family: century gothic;
+    color: #000;
+}
+
+.first-top-div
+{
+    width: 30%;
+    /* border: solid thin blue; */
+}
+
+
+#button-learn-more-div:hover
+{
+    transform: scale(.9);
+}
+#button-learn-more-div
+{
+    background: rgb(15, 65, 74);
+    padding: .5em;
+    font-family: var( --f-fam );
+    text-align: center; 
+    border-radius: .5em;  
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all .2s ease-in;
+    width: 20%;
+}
